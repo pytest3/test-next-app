@@ -1,21 +1,18 @@
-.article {
+.post {
     padding: 15px 0;
     display: grid;
     grid-template-columns: 40px 1fr;
     grid-template-rows: auto auto;
     gap: 5px 10px;
-}
-
-.article:not(:first-child) {
-    border-top: 1px solid gray;
-}
-
-.article:last-of-type {
     border-bottom: 1px solid gray;
 }
 
 .table {
     width: 100%;
+}
+
+.table a:first-of-type .post{
+    padding-top: 0px;
 }
 
 .avatar {

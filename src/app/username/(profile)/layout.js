@@ -10,13 +10,12 @@ export default function ProfileLayout({ children }) {
       <article className={styles.userInfo}>
         <h1>John Doe</h1>
         <span>@john doe</span>
-        <span>Joined feb 2022</span>
       </article>
 
       <nav className={styles.navbar}>
-        <NavLink href="/profile/posts">Posts</NavLink>
-        <NavLink href="/profile/replies">Replies</NavLink>
-        <NavLink href="/profile/likes">Likes</NavLink>
+        <NavLink href="/username/posts">Posts</NavLink>
+        <NavLink href="/username/replies">Replies</NavLink>
+        <NavLink href="/username/likes">Likes</NavLink>
       </nav>
       {children}
     </div>

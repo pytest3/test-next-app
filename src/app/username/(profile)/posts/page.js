@@ -8,8 +8,8 @@ export default function Posts() {
     <div className={styles.table}>
       {posts.map((i) => {
         return (
-          <NavLink>
-            <article className={styles.article}>
+          <NavLink key={i.id} href={`/username/status/${i.id}`}>
+            <article className={styles.post}>
               <UserCircle className={styles.avatar} />
               <div>{i.user}</div>
               <div>{i.message}</div>

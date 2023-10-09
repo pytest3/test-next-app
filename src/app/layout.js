@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} global-wrapper`}>
         <nav className="navbar">
           <Link href="/">Home</Link>
-          <Link href="/profile">Profile</Link>
-          <Link href="">Notifications</Link>
+          <Link href="/username">Profile</Link>
+          <Link href="/notifications">Notifications</Link>
         </nav>
         {children}
       </body>
