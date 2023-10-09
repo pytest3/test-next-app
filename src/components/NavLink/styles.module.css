@@ -1,0 +1,11 @@
+
+.navLink {
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.active {
+    border-bottom: 2.5px solid skyblue;
+    font-weight: 700;
+    color: sky
+}

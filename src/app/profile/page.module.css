@@ -1,0 +1,11 @@
+
+.userInfo {
+    display: grid;
+    margin-bottom: 3cqb;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid gray;
+}
