@@ -1,16 +1,23 @@
+import styles from "./styles.module.css";
+import { UserCircle, BarChart2 } from "lucide-react";
+
 export default function StatusLayout({ children }) {
   return (
-    <div>
-      <article className={""}>
-        <h1>John Doe</h1>
-        <span>@john doe</span>
-        <span>Joined feb 2022</span>
+    <div className={styles.wrapper}>
+      <article className={styles.post}>
+        <h1 className={styles.name}>John Doe</h1>
+        <UserCircle className={styles.avatar} />
+        <span className={styles.userId}>@johndoe1234</span>
       </article>
       {children}
-      <form>
+      <div className={styles.engagementWrapper}>
+        <BarChart2 className={styles.icon} />
+        <span className={styles.engagementText}>View post engagements</span>
+      </div>
+      {/* <form className={styles.form}>
         <label>Post your reply</label>
         <input type="text"></input>
-      </form>
+      </form> */}
     </div>
   );
 }

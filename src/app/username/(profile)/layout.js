@@ -13,7 +13,7 @@ export default function ProfileLayout({ children }) {
       </article>
 
       <nav className={styles.navbar}>
-        <NavLink href="/username/posts">Posts</NavLink>
+        <NavLink href="/username">Posts</NavLink>
         <NavLink href="/username/replies">Replies</NavLink>
         <NavLink href="/username/likes">Likes</NavLink>
       </nav>
