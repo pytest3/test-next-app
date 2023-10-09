@@ -105,3 +105,14 @@ a {
     color-scheme: dark;
   }
 }
+
+.navbar {
+  display: flex;
+  color: hotpink;
+  gap: 10px;
+  margin-bottom: 20px
+}
+
+.global-wrapper {
+  padding: 16px
+}
